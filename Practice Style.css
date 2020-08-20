@@ -1,7 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+html {
+    background-color:#2eb82e
+}
+
 h1 {
-    color: green;
+    color:yellow;
 }
 
 body {
     color: red;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .45);
+    background-image: url("/Images/shorts.png.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.attributes {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.login_signup{
+    display:inline-block;
+    padding: 30px; 
+}
+
+.btn {
+    padding: 5px;
+    color: black;
+}
+
+.login_btn, .signup_btn {
+    background-color: rgb(129, 129, 119);
 }
