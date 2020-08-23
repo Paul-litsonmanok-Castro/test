@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 * {
     box-sizing: border-box;
-    font-family: 
 }
 
 html, body {
@@ -15,38 +14,56 @@ html {
     background-color:#2eb82e
 }
 
-h1 {
-    color:yellow;
-}
-
-body {
-    color: red;
-}
 
 .main-header {
-    background-color: rgba(0, 0, 0, .45);
-    background-image: url("/Images/shorts.png.jpg");
-    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .80);
+    background-image: url("/Images/tailor-artwork.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 30px;    
-    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-blend-mode: multiply;
+    background-size: cover;    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.image-logo {
+    width: 8em;
+    height: 8em;
 }
 
 .attributes {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
+    color: red;
 }
 
 .login_signup{
     display:inline-block;
     padding: 30px; 
+    text-align: center;
 }
 
 .btn {
     padding: 5px;
     color: black;
+    text-align: center;
 }
 
 .login_btn, .signup_btn {
     background-color: rgb(129, 129, 119);
+}
+
+.footer a { 
+    display: inline-block;
+    padding: 5px;
+    color: yellow;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer a:hover {
+    background-color: rgba(255, 255, 255, .3);
 }
